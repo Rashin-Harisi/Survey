@@ -1,0 +1,57 @@
+body{
+  background-color: rgb(30,129,176);
+  width : 100%;
+}
+#title , #description {
+  text-align : center;
+  color : white ; 
+  font-size : 24px;
+  font-family : Sans-serif;
+}
+div{
+  width : 800px;
+  height : 850px ;
+  background-color :rgb(72, 186, 213) ;
+  left : 20%;
+  position : absolute;
+}
+input[type ='text'], input[type ='email'] , input[type='number']{
+  display: block;
+  margin : 5px;
+  border-style : none ;
+  border-radius : 5px ;
+  width: 100%;
+  height : 35px;
+}
+label{
+  color : white ; 
+  font-size : 18px ;
+  font-family : Serif; 
+}
+
+select{
+  display: block;
+  margin-left : 30px;
+  width : 50%;
+  color : black;
+  background-color : rgb(86, 171, 240);
+  border : none;
+}
+option{
+  font-size: 16px;
+}
+#text{
+  border-style : soft ;
+  border-radius : 10px ;
+}
+fieldset{
+  border : none;
+}
+#submit{
+  width : 100%;
+  height : 35px;
+  border-radius : 5px;
+  background-color : green;
+  font-size : 20px;
+  font-family : Serif;
+}
